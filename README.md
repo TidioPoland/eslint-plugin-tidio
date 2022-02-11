@@ -6,11 +6,13 @@ This package provides custom eslint configs for different uses.
 
 ## Usage
 
-To add tidio plugin to your eslint config you should be adding individual configs (with `plugin:tidio/`) prefix to `extends` array in your eslint rc file.
+To add tidio plugin to your eslint config you should be adding individual configs (with `plugin:tidio/`) prefix to `extends` array in your eslint rc file. One important thing to note is that you should add `require("@rushstack/eslint-patch/modern-module-resolution");` to the top of your `.eslintrc.js` file. This package patches eslint to use its own module resolution. What it does in practice - you do not need to install any other packages than this one in your repository (normally you would need to install airbnb, eslint plugins etc). For more detailed info see [@rushstack/eslint-patch](https://www.npmjs.com/package/@rushstack/eslint-patch)
 
 Example config can look like this:
 
 ```
+require("@rushstack/eslint-patch/modern-module-resolution");
+
 module.exports = {
     parser: '@typescript-eslint/parser',
     extends: [
