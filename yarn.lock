@@ -607,9 +607,9 @@ eslint-plugin-react@^7.28.0:
     semver "^6.3.0"
     string.prototype.matchall "^4.0.6"
 
-eslint-plugin-tidio-additional-rules@dominiczaq/eslint-plugin-tidio-additional-rules:
-  version "1.0.0"
-  resolved "https://codeload.github.com/dominiczaq/eslint-plugin-tidio-additional-rules/tar.gz/1e084c9fcc8dcdc964c49b3d1cadfcbb05b2a678"
+"eslint-plugin-tidio-additional-rules@github:dominiczaq/eslint-plugin-tidio-additional-rules":
+  version "1.1.1"
+  resolved "https://codeload.github.com/dominiczaq/eslint-plugin-tidio-additional-rules/tar.gz/73b65183526dbad6c7af30fe51344d4b38cee8d3"
   dependencies:
     requireindex "~1.2.0"
 
