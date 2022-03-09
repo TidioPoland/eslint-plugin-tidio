@@ -1,7 +1,7 @@
 {
-  "name": "eslint-plugin-tidio",
+  "name": "@tidio/eslint-plugin-tidio",
   "description": "Tidio eslint ruleset",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [
     "eslint",
     "eslint-plugin",
@@ -28,11 +28,21 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
-    "eslint-plugin-tidio-additional-rules": "dominiczaq/eslint-plugin-tidio-additional-rules"
+    "eslint-plugin-tidio-additional-rules": "github:dominiczaq/eslint-plugin-tidio-additional-rules"
   },
   "devDependencies": {
     "eslint": "^7.32.0 || ^8.2.0",
     "prettier": "^2.5.1",
     "typescript": "^4.5.5"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TidioLtd/eslint-plugin-tidio.git"
+  },
+  "author": "Jarosław Salwa <jaroslaw@tidio.net>",
+  "bugs": {
+    "url": "https://github.com/TidioLtd/eslint-plugin-tidio/issues"
+  },
+  "homepage": "https://github.com/TidioLtd/eslint-plugin-tidio#readme"
 }
