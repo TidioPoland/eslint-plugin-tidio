@@ -1,8 +1,16 @@
-# eslint-plugin-tidio
+# @tidio/eslint-config
 
-[![npm version](https://badge.fury.io/js/@tidio%2Feslint-plugin-tidio.svg)](https://badge.fury.io/js/@tidio%2Feslint-plugin-tidio)
+[![npm version](https://badge.fury.io/js/@tidio%2Feslint-config.svg)](https://badge.fury.io/js/@tidio%2Feslint-config)
 
 This package provides custom eslint configs for different uses.
+
+## Installation
+
+To install run
+
+```
+yarn add -D @tidio/eslint-config
+```
 
 ## Usage
 
@@ -16,8 +24,8 @@ require("@rushstack/eslint-patch/modern-module-resolution");
 module.exports = {
     parser: '@typescript-eslint/parser',
     extends: [
-        'plugin:@tidio/eslint-plugin-tidio/react',
-        'plugin:@tidio/eslint-plugin-tidio/translations',
+        'plugin:@tidio/eslint-config/react',
+        'plugin:@tidio/eslint-config/translations',
     ]
 };
 ```
@@ -26,7 +34,7 @@ module.exports = {
 
 ## basic
 
-To add it to your config add `plugin:@tidio/eslint-plugin-tidio/basic` to `extends` array.
+To add it to your config add `plugin:@tidio/eslint-config/basic` to `extends` array.
 
 This config extends [airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb-base) config. It also extends prettier and recommended rules for typescript. Additionally there are rules which override some of airbnb rules and some that add new rules to this set. This config should be usable in any kind of repo (node, non-react repos etc).
 
@@ -34,7 +42,7 @@ This config extends [airbnb-base](https://www.npmjs.com/package/eslint-config-ai
 
 ## react
 
-To add it to your config add `plugin:@tidio/eslint-plugin-tidio/react` to `extends` array.
+To add it to your config add `plugin:@tidio/eslint-config/react` to `extends` array.
 
 This config is an extension of `basic` ruleset with some additional react-only rules. This config extends [airbnb](https://www.npmjs.com/package/eslint-config-airbnb) config instead of `airbnb-base`. In addition to `basic` and `airbnb` ruleset there are some additional react rules overrides, react-hooks rules and some other custom rules. This config should be usable in repos which use `react`
 
@@ -42,19 +50,19 @@ This config is an extension of `basic` ruleset with some additional react-only r
 
 ## emotion
 
-To add it to your config add `plugin:@tidio/eslint-plugin-tidio/emotion` to `extends` array.
+To add it to your config add `plugin:@tidio/eslint-config/emotion` to `extends` array.
 
 It contains rules for CSS-in-JS emotion package.
 
 ## translations
 
-To add it to your config add `plugin:@tidio/eslint-plugin-tidio/translations` to `extends` array.
+To add it to your config add `plugin:@tidio/eslint-config/translations` to `extends` array.
 
 This ruleset disallows using strings as direct JSX children and it requires always importing from `lang` as `trans`.
 
 ## jest
 
-To add it to your config add `plugin:@tidio/eslint-plugin-tidio/jest` to `extends` array and update your `settings` object in eslint rc file with `jest->version`, for example:
+To add it to your config add `plugin:@tidio/eslint-config/jest` to `extends` array and update your `settings` object in eslint rc file with `jest->version`, for example:
 
 ```
 settings: {
@@ -68,12 +76,12 @@ This config adds jest rules to your ruleset. It extends `jest/recommended` and `
 
 ## redux
 
-To add it to your config add `plugin:@tidio/eslint-plugin-tidio/redux` to `extends` array.
+To add it to your config add `plugin:@tidio/eslint-config/redux` to `extends` array.
 
 It adds custom redux rules.
 
 ## storybook
 
-To add it to your config add `plugin:@tidio/eslint-plugin-tidio/storybook` to `extends` array.
+To add it to your config add `plugin:@tidio/eslint-config/storybook` to `extends` array.
 
 It adds some overrides for `stories` files.
