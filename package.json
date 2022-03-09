@@ -1,7 +1,7 @@
 {
   "name": "@tidio/eslint-config",
   "description": "Tidio eslint ruleset",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "keywords": [
     "eslint",
     "eslint-plugin",
