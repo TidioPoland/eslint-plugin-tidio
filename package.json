@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@emotion/eslint-plugin": "^11.7.0",
-    "@rushstack/eslint-patch": "^1.1.0",
+    "@rushstack/eslint-patch": "^1.1.1",
     "@typescript-eslint/eslint-plugin": "^5.10.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-base": "^15.0.0",
@@ -28,7 +28,9 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
-    "eslint-plugin-tidio-additional-rules": "github:dominiczaq/eslint-plugin-tidio-additional-rules"
+    "eslint-plugin-tidio-additional-rules": "github:dominiczaq/eslint-plugin-tidio-additional-rules",
+    "patch-package": "^6.4.7",
+    "postinstall-postinstall": "^2.1.0"
   },
   "devDependencies": {
     "eslint": "^7.32.0 || ^8.2.0",
@@ -44,5 +46,8 @@
   "bugs": {
     "url": "https://github.com/TidioLtd/eslint-plugin-tidio/issues"
   },
-  "homepage": "https://github.com/TidioLtd/eslint-plugin-tidio#readme"
+  "homepage": "https://github.com/TidioLtd/eslint-plugin-tidio#readme",
+  "scripts": {
+    "postinstall": "patch-package"
+  }
 }
