@@ -9,7 +9,7 @@ This package provides custom eslint configs for different uses.
 To install run
 
 ```
-yarn add -D @tidio/eslint-plugin-tidio
+yarn add -D @tidio/eslint-plugin-tidio @rushstack/eslint-patch
 ```
 
 ## Usage
