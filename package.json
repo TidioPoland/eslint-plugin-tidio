@@ -27,6 +27,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-testing-library": "^5.5.0",
     "eslint-plugin-tidio-additional-rules": "github:dominiczaq/eslint-plugin-tidio-additional-rules"
   },
   "devDependencies": {
