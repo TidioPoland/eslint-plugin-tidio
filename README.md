@@ -85,3 +85,7 @@ It adds custom redux rules.
 To add it to your config add `plugin:@tidio/eslint-plugin-tidio/storybook` to `extends` array.
 
 It adds some overrides for `stories` files.
+
+## testing library
+
+To add it to your config add `plugin:@tidio/eslint-plugin-tidio/testingLibrary` to `extends` array.
