@@ -33,7 +33,6 @@
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-plugin-testing-library": "^5.5.0",
-    "eslint-plugin-tidio-additional-rules": "github:dominiczaq/eslint-plugin-tidio-additional-rules",
     "requireindex": "^1.2.0"
   },
   "devDependencies": {

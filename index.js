@@ -22,7 +22,7 @@ const configs = {
   testingLibrary,
 };
 
-const rules = requireIndex("./src/rules");
+const rules = requireIndex(__dirname + "/src/rules");
 
 module.exports = {
   configs,
