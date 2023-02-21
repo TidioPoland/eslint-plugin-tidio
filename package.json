@@ -1,7 +1,7 @@
 {
   "name": "@tidio/eslint-plugin-tidio",
   "description": "Tidio eslint ruleset",
-  "version": "1.4.0-beta.0",
+  "version": "1.4.0",
   "keywords": [
     "eslint",
     "eslint-plugin",
