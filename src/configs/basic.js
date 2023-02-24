@@ -1,6 +1,6 @@
 const basic = {
   plugins: [
-    "eslint-plugin-tidio-additional-rules",
+    "rulesdir",
     "@typescript-eslint",
     "eslint-comments",
     "prettier",
@@ -16,14 +16,14 @@ const basic = {
   rules: {
     "prettier/prettier": "error",
     // Tidio additional rules
-    "tidio-additional-rules/return-no-semi": 2,
-    "tidio-additional-rules/eslint-plugin-disallow-keycodes-without-constants": 2,
-    "tidio-additional-rules/eslint-plugin-disallow-single-sign-variable-in-arrow-expressions": 2,
-    "tidio-additional-rules/curly-no-single-line-without-braces-overwrite": 2,
-    "tidio-additional-rules/enum-declaration-pascal-case": 2,
-    "tidio-additional-rules/enum-members-should-be-uppercase": 2,
-    "tidio-additional-rules/no-unnecessary-template-strings": 2,
-    "tidio-additional-rules/prefer-function-declaration-in-actions": 2,
+    "rulesdir/return-no-semi": 2,
+    "rulesdir/eslint-plugin-disallow-keycodes-without-constants": 2,
+    "rulesdir/eslint-plugin-disallow-single-sign-variable-in-arrow-expressions": 2,
+    "rulesdir/curly-no-single-line-without-braces-overwrite": 2,
+    "rulesdir/enum-declaration-pascal-case": 2,
+    "rulesdir/enum-members-should-be-uppercase": 2,
+    "rulesdir/no-unnecessary-template-strings": 2,
+    "rulesdir/prefer-function-declaration-in-actions": 2,
     // Eslint comments rules
     "eslint-comments/no-aggregating-enable": 2, // disallows eslint-enable comments for multiple eslint-disable comments
     "eslint-comments/no-unlimited-disable": 2, // disallows eslint-disable comments without rule names

@@ -1,8 +1,8 @@
 const translations = {
-  plugins: ["eslint-plugin-tidio-additional-rules"],
+  plugins: ["rulesdir"],
   rules: {
-    "tidio-additional-rules/import-from-lang-always-trans": 2,
-    "tidio-additional-rules/eslint-plugin-disallow-literals-as-direct-jsxelement-children": 2,
+    "rulesdir/import-from-lang-always-trans": 2,
+    "rulesdir/eslint-plugin-disallow-literals-as-direct-jsxelement-children": 2,
   },
 };
 

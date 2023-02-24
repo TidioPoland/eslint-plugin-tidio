@@ -1,7 +1,6 @@
 "use strict";
 var requireIndex = require("requireindex");
 
-
 const basic = require("./src/configs/basic");
 const react = require("./src/configs/react");
 const translations = require("./src/configs/translations");
@@ -22,9 +21,10 @@ const configs = {
   testingLibrary,
 };
 
-const rules = requireIndex(__dirname + "/src/rules");
+const additionalRulesPlugin = require('eslint-plugin-rulesdir');
+additionalRulesPlugin.RULES_DIR = __dirname + '/src/customRules';
 
 module.exports = {
+  plugins: ['rulesdir'],
   configs,
-  rules
 };
