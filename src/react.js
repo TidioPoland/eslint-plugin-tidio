@@ -15,9 +15,9 @@ react.extends = react.extends.map((extend) => {
 react.settings = Object.assign({}, basic.settings);
 const reactRules = {
   // React
-  "@tidio/tidio-additional-rules/imports-order-for-less-files": 2,
-  "@tidio/tidio-additional-rules/imports-order-for-media-files": 2,
-  "@tidio/tidio-additional-rules/eslint-plugin-disallow-null-in-tenary-in-jsx": 2,
+  "@tidio/rules/imports-order-for-less-files": 2,
+  "@tidio/rules/imports-order-for-media-files": 2,
+  "@tidio/rules/eslint-plugin-disallow-null-in-tenary-in-jsx": 2,
   "react-hooks/rules-of-hooks": "error",
   "react-hooks/exhaustive-deps": "error",
   "react/no-danger": 2,
@@ -74,7 +74,7 @@ const reactOverrides = [
   {
     files: ["**/*.jsx", "*.tsx"],
     rules: {
-      "@tidio/tidio-additional-rules/always-require-default-export": 2,
+      "@tidio/rules/always-require-default-export": 2,
     },
   },
   {
@@ -87,7 +87,7 @@ const reactOverrides = [
       "styles.tsx",
     ],
     rules: {
-      "@tidio/tidio-additional-rules/always-require-default-export": 0,
+      "@tidio/rules/always-require-default-export": 0,
     },
   },
   {

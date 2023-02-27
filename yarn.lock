@@ -69,10 +69,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@tidio/eslint-plugin-tidio-additional-rules@^2.0.0":
+"@tidio/eslint-plugin-rules@^2.0.0":
   version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@tidio/eslint-plugin-tidio-additional-rules/-/eslint-plugin-tidio-additional-rules-2.0.0.tgz#57480900c84ed9b3baef87b4c2f6814893eb4dda"
-  integrity sha512-obkypVl769KkQNVv7wnlXu4fEavMzq0sDSS+tENyScXcY04M7qKmkf3BvnWJXVZe9GbwHOb7NvONOISAL9Kwkw==
+  resolved "https://registry.yarnpkg.com/@tidio/eslint-plugin-rules/-/eslint-plugin-rules-2.0.0.tgz#741f339d97939f542578ed2882040f197720189e"
+  integrity sha512-gxQ0vpqPesQs+mpIiRTXhv7VB3SOIwGBQCm1H1t1eYofRGHZP0i046RaC3QlHd2zSU7mzMN+znArnZr7FsvI+g==
   dependencies:
     requireindex "~1.2.0"
 

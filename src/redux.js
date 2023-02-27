@@ -3,7 +3,7 @@ const redux = {
     {
       files: ["actions.ts", "actionsTS.ts"],
       rules: {
-        "@tidio/tidio-additional-rules/require-const-in-action-creator-ts-function": 2,
+        "@tidio/rules/require-const-in-action-creator-ts-function": 2,
         "@typescript-eslint/explicit-function-return-type": 0,
       },
     },
