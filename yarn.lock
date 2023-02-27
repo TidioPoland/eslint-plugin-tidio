@@ -69,6 +69,13 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@tidio/eslint-plugin-tidio-additional-rules@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@tidio/eslint-plugin-tidio-additional-rules/-/eslint-plugin-tidio-additional-rules-2.0.0.tgz#57480900c84ed9b3baef87b4c2f6814893eb4dda"
+  integrity sha512-obkypVl769KkQNVv7wnlXu4fEavMzq0sDSS+tENyScXcY04M7qKmkf3BvnWJXVZe9GbwHOb7NvONOISAL9Kwkw==
+  dependencies:
+    requireindex "~1.2.0"
+
 "@types/json-schema@^7.0.9":
   version "7.0.9"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.9.tgz#97edc9037ea0c38585320b28964dde3b39e4660d"
@@ -747,12 +754,6 @@ eslint-plugin-testing-library@^5.10.2:
   integrity sha512-f1DmDWcz5SDM+IpCkEX0lbFqrrTs8HRsEElzDEqN/EBI0hpRj8Cns5+IVANXswE8/LeybIJqPAOQIFu2j5Y5sw==
   dependencies:
     "@typescript-eslint/utils" "^5.43.0"
-
-"eslint-plugin-tidio-additional-rules@github:dominiczaq/eslint-plugin-tidio-additional-rules":
-  version "1.2.2"
-  resolved "https://codeload.github.com/dominiczaq/eslint-plugin-tidio-additional-rules/tar.gz/fb3dcadc8915dda298e41a67e7ad730954775d28"
-  dependencies:
-    requireindex "~1.2.0"
 
 eslint-scope@^5.1.1:
   version "5.1.1"

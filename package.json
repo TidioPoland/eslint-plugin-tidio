@@ -1,7 +1,7 @@
 {
   "name": "@tidio/eslint-plugin-tidio",
   "description": "Tidio eslint ruleset",
-  "version": "1.4.1",
+  "version": "2.0.0",
   "keywords": [
     "eslint",
     "eslint-plugin",
@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@emotion/eslint-plugin": "^11.10.0",
+    "@tidio/eslint-plugin-tidio-additional-rules": "^2.0.0",
     "@typescript-eslint/eslint-plugin": "^5.53.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-base": "^15.0.0",
@@ -27,8 +28,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-testing-library": "^5.10.2",
-    "eslint-plugin-tidio-additional-rules": "github:dominiczaq/eslint-plugin-tidio-additional-rules"
+    "eslint-plugin-testing-library": "^5.10.2"
   },
   "devDependencies": {
     "eslint": "^7.32.0 || ^8.34.0",
