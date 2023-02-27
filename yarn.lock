@@ -749,8 +749,8 @@ eslint-plugin-testing-library@^5.10.2:
     "@typescript-eslint/utils" "^5.43.0"
 
 "eslint-plugin-tidio-additional-rules@github:dominiczaq/eslint-plugin-tidio-additional-rules":
-  version "1.1.5"
-  resolved "https://codeload.github.com/dominiczaq/eslint-plugin-tidio-additional-rules/tar.gz/c45f66833b92753f88ed5162cc1754542775865b"
+  version "1.2.2"
+  resolved "https://codeload.github.com/dominiczaq/eslint-plugin-tidio-additional-rules/tar.gz/fb3dcadc8915dda298e41a67e7ad730954775d28"
   dependencies:
     requireindex "~1.2.0"
 
