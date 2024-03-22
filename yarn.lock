@@ -103,10 +103,10 @@
     picocolors "^1.0.0"
     tslib "^2.6.0"
 
-"@tidio/eslint-plugin-rules@^2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@tidio/eslint-plugin-rules/-/eslint-plugin-rules-2.3.1.tgz#0f0ebfb6801f6c3689de617a89527c713785f52a"
-  integrity sha512-MPNEwsm+IMJzPKFz4PhZ45bFprMXBcN2YEv3QXrm02VAkN7s4upC9+hyt+nWeQFzGj+ZtXHgse/jb4CE0bjJ9Q==
+"@tidio/eslint-plugin-rules@^2.3.2":
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@tidio/eslint-plugin-rules/-/eslint-plugin-rules-2.3.2.tgz#6d4c05fbcc8cda194bc92cfdaff85d7a018d8b1f"
+  integrity sha512-8pk34agd4MX3Wo2HAZ0ZX6wIlIwZ2GWmH/HkGzWtomJJT7JbR114GxO9nUIW502oc3kXl7QTQs+ZUQS43DAw6A==
   dependencies:
     requireindex "~1.2.0"
 
