@@ -2,7 +2,7 @@ const basic = require("./basic");
 
 const react = {};
 react.plugins = Object.assign([], basic.plugins);
-react.plugins.push("react-hooks", "react");
+react.plugins.push("eslint-plugin-react-compiler", "react-hooks", "react");
 
 react.extends = Object.assign([], basic.extends);
 react.extends = react.extends.map((extend) => {
@@ -66,6 +66,7 @@ const reactRules = {
   ],
   // Disable react/sort-comp as this is not necessary for us and fixing it can cause many errors
   "react/sort-comp": 0,
+  "react-compiler/react-compiler": 2,
 };
 
 react.rules = Object.assign({}, basic.rules, reactRules);
