@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@emotion/eslint-plugin": "^11.12.0",
-    "@tidio/eslint-plugin-rules": "^2.6.0",
+    "@tidio/eslint-plugin-rules": "^2.7.0",
     "@typescript-eslint/eslint-plugin": "^8.10.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-base": "^15.0.0",
