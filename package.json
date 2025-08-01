@@ -1,7 +1,7 @@
 {
   "name": "@tidio/eslint-plugin-tidio",
   "description": "Tidio eslint ruleset",
-  "version": "6.2.0",
+  "version": "6.3.0",
   "keywords": [
     "eslint",
     "eslint-plugin",
@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@emotion/eslint-plugin": "^11.12.0",
-    "@tidio/eslint-plugin-rules": "^3.2.0",
+    "@tidio/eslint-plugin-rules": "^3.3.0",
     "@typescript-eslint/eslint-plugin": "^8.20.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-base": "^15.0.0",
