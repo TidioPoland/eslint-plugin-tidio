@@ -330,10 +330,10 @@
   resolved "https://registry.yarnpkg.com/@rtsao/scc/-/scc-1.1.0.tgz#927dd2fae9bc3361403ac2c7a00c32ddce9ad7e8"
   integrity sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==
 
-"@tidio/eslint-plugin-rules@^3.5.0":
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/@tidio/eslint-plugin-rules/-/eslint-plugin-rules-3.5.0.tgz#cd80b19675e06d101d2bdb1bab2a085ce137099b"
-  integrity sha512-40Pd8W84AgEqbe8KoCtPhzIN9CKOluYoLCCe4BV3HLLWwjIUftcjC3GBvApGShKK4nrFZ0dGI9wBGkRM5SlEYg==
+"@tidio/eslint-plugin-rules@^3.6.0":
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/@tidio/eslint-plugin-rules/-/eslint-plugin-rules-3.6.0.tgz#e3c59f1072b93633b0e0b33260fdbf54fc3dc29b"
+  integrity sha512-Zv72k+UNJUO5JSiYCzGHTVLYsWk61YbX5iaZC6h/It3u2KlYTBYVwlVkhqcaUtakRvMDdSpq8PgKCYoHwv5YhQ==
   dependencies:
     requireindex "~1.2.0"
 
