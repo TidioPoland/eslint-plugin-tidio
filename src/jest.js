@@ -1,6 +1,8 @@
-const jest = {
-  extends: ["plugin:jest/recommended", "plugin:jest/style"],
-  plugins: ["jest"],
-};
+import jestPlugin from "eslint-plugin-jest";
 
-module.exports = jest;
+const jest = [
+  jestPlugin.configs["flat/recommended"],
+  jestPlugin.configs["flat/style"],
+];
+
+export default jest;

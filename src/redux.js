@@ -1,13 +1,11 @@
-const redux = {
-  overrides: [
-    {
-      files: ["actions.ts", "actionsTS.ts"],
-      rules: {
-        "@tidio/rules/require-const-in-action-creator-ts-function": 2,
-        "@typescript-eslint/explicit-function-return-type": 0,
-      },
+const redux = [
+  {
+    files: ["**/actions.ts", "**/actionsTS.ts"],
+    rules: {
+      "@tidio/rules/require-const-in-action-creator-ts-function": 2,
+      "@typescript-eslint/explicit-function-return-type": 0,
     },
-  ],
-};
+  },
+];
 
-module.exports = redux;
+export default redux;

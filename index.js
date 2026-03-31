@@ -1,25 +1,23 @@
-"use strict";
+import basic from "./src/basic.js";
+import react from "./src/react.js";
+import translations from "./src/translations.js";
+import jest from "./src/jest.js";
+import emotion from "./src/emotion.js";
+import storybook from "./src/storybook.js";
+import redux from "./src/redux.js";
+import testingLibrary from "./src/testingLibrary.js";
 
-const basic = require("./src/basic");
-const react = require("./src/react");
-const translations = require("./src/translations");
-const jest = require("./src/jest");
-const emotion = require("./src/emotion");
-const storybook = require("./src/storybook");
-const redux = require("./src/redux");
-const testingLibrary = require("./src/testingLibrary");
-
-const configs = {
-  basic,
-  react,
-  translations,
-  jest,
-  emotion,
-  storybook,
-  redux,
-  testingLibrary,
+const plugin = {
+  configs: {
+    basic,
+    react,
+    translations,
+    jest,
+    emotion,
+    storybook,
+    redux,
+    testingLibrary,
+  },
 };
 
-module.exports = {
-  configs,
-};
+export default plugin;

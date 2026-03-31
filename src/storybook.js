@@ -1,13 +1,11 @@
-const storybook = {
-  overrides: [
-    {
-      files: ["*.stories.*"],
-      rules: {
-        "@tidio/rules/eslint-plugin-disallow-literals-as-direct-jsxelement-children": 0,
-        "import/no-extraneous-dependencies": 0,
-      },
+const storybook = [
+  {
+    files: ["**/*.stories.*"],
+    rules: {
+      "@tidio/rules/eslint-plugin-disallow-literals-as-direct-jsxelement-children": 0,
+      "import/no-extraneous-dependencies": 0,
     },
-  ],
-};
+  },
+];
 
-module.exports = storybook;
+export default storybook;
