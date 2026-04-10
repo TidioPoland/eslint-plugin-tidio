@@ -11,11 +11,10 @@ const compat = new FlatCompat({
 const react = [
   ...compat.extends("airbnb"),
   ...coreRules,
-
+  reactHooksPlugin.configs.flat["recommended-latest"],
   {
     plugins: {
       "@tidio/rules": tidioRulesPlugin,
-      "react-hooks": reactHooksPlugin,
     },
     rules: {
       "@tidio/rules/imports-order-for-less-files": 2,
@@ -56,26 +55,14 @@ const react = [
       ],
       "jsx-a11y/control-has-associated-label": 0,
 
-      "react-hooks/component-hook-factories": 2,
-      "react-hooks/config": 2,
-      "react-hooks/error-boundaries": 2,
-      "react-hooks/gating": 2,
-      "react-hooks/globals": 2,
-      "react-hooks/immutability": 2,
-      "react-hooks/incompatible-library": 2,
-      "react-hooks/preserve-manual-memoization": 2,
+      "react-hooks/exhaustive-deps": 2,
       "react-hooks/purity": 1,
       // False positive — https://github.com/facebook/react/issues/34775
       "react-hooks/refs": 0,
-      "react-hooks/set-state-in-effect": 2,
-      "react-hooks/set-state-in-render": 2,
       // We very often pass components during rendering
-      "react-hooks/static-components": "warn",
-      "react-hooks/unsupported-syntax": 1,
-      "react-hooks/use-memo": 2,
+      "react-hooks/static-components": 1,
     },
   },
-
   {
     files: ["**/*.jsx", "**/*.tsx"],
     rules: {
