@@ -1,7 +1,7 @@
 {
   "name": "@tidio/eslint-plugin-tidio",
   "description": "Tidio eslint ruleset",
-  "version": "7.1.0",
+  "version": "7.2.0",
   "keywords": [
     "eslint",
     "eslint-plugin",
@@ -23,7 +23,7 @@
     "@emotion/eslint-plugin": "^11.12.0",
     "@eslint-community/eslint-plugin-eslint-comments": "^4.7.1",
     "@eslint/eslintrc": "^3.0.0",
-    "@tidio/eslint-plugin-rules": "^3.8.0",
+    "@tidio/eslint-plugin-rules": "^3.9.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^10.1.8",
